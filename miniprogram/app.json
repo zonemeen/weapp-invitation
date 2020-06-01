@@ -1,0 +1,56 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/navigator/index",
+    "pages/comment/index",
+    "pages/photo/index",
+    "pages/egg/index",
+    "pages/login/index",
+    "pages/setting/index",
+    "pages/setting_info/index",
+    "pages/setting_photo/index",
+    "pages/setting_comment/index",
+    "pages/setting_hotel/index",
+    "pages/setting_attend/index",
+    "pages/setting_egg/index"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#242424",
+    "navigationBarTitleText": "婚礼邀请函",
+    "navigationBarTextStyle": "white",
+    "navigationStyle": "custom",
+    "backgroundColor": "#242424"
+  },
+  "tabBar": {
+    "color": "#fff",
+    "selectedColor": "#eccb90",
+    "backgroundColor": "#242424",
+    "list": [
+      {
+        "text": "邀请函",
+        "pagePath": "pages/index/index",
+        "iconPath": "/images/black-gold/icon1.png",
+        "selectedIconPath": "/images/black-gold/icon1-active.png"
+      },
+      {
+        "text": "相册",
+        "pagePath": "pages/photo/index",
+        "iconPath": "/images/black-gold/icon2.png",
+        "selectedIconPath": "/images/black-gold/icon2-active.png"
+      },
+      {
+        "text": "酒店导航",
+        "pagePath": "pages/navigator/index",
+        "iconPath": "/images/black-gold/icon3.png",
+        "selectedIconPath": "/images/black-gold/icon3-active.png"
+      },
+      {
+        "text": "留言评论",
+        "pagePath": "pages/comment/index",
+        "iconPath": "/images/black-gold/icon4.png",
+        "selectedIconPath": "/images/black-gold/icon4-active.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}
